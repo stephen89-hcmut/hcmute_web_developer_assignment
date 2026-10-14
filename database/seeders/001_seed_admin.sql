@@ -1,0 +1,2 @@
+-- Generate a password hash with password_hash() before inserting an admin.
+-- Never commit a real password or plaintext credentials.

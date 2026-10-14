@@ -1,0 +1,13 @@
+{
+    "name": "computer-store-assets",
+    "private": true,
+    "description": "Frontend assets for the PHP Computer Store application",
+    "scripts": {
+        "build": "npm run copy:bootstrap",
+        "copy:bootstrap": "node scripts/copy-bootstrap.js"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.8"
+    }
+}

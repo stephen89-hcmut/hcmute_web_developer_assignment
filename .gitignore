@@ -1,0 +1,49 @@
+# Secrets and local environment files
+/.env
+/.env.*
+!/.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+/.secrets/
+/secrets/
+
+# Dependencies and generated packages
+/vendor/
+/node_modules/
+/public/assets/vendor/
+
+# Runtime uploads and generated media
+/public/uploads/*
+!/public/uploads/**/
+!/public/uploads/**/.gitkeep
+
+# Logs, caches, coverage and local runtime state
+*.log
+/storage/
+/cache/
+/.phpunit.result.cache
+/coverage/
+/build/
+/dist/
+
+# Local database exports and backups
+*.dump
+*.bak
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE and operating-system files
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings.example.json
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
